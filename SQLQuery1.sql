@@ -15,12 +15,19 @@ CREATE TABLE p_oraret (
     FOREIGN KEY (puntoret_id) REFERENCES puntoret(id)
 );
 
+ALTER TABLE p_oraret
+ADD CONSTRAINT FK_p_oraret_puntoret
+FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
+
 CREATE TABLE produkte (
     id VARCHAR(10) PRIMARY KEY,
     Emri VARCHAR(20) NOT NULL,
     kategoria VARCHAR(50),
     cmimi_njesi DECIMAL(10,2) NOT NULL
 );
+ALTER TABLE shitje_artikuj
+ADD CONSTRAINT FK_shitje_artikuj_produkte
+FOREIGN KEY (produkte_id) REFERENCES produkte(id) ON DELETE CASCADE;
 
 CREATE TABLE shitjet (
     id VARCHAR(10) PRIMARY KEY,
@@ -29,6 +36,9 @@ CREATE TABLE shitjet (
     puntoret_id VARCHAR(10),
     FOREIGN KEY (puntoret_id) REFERENCES puntoret(id)
 );
+ALTER TABLE shitjet
+ADD CONSTRAINT FK_shitjet_puntoret
+FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
 
 CREATE TABLE shitje_artikuj (
     id VARCHAR(10) PRIMARY KEY,
@@ -40,6 +50,9 @@ CREATE TABLE shitje_artikuj (
     FOREIGN KEY (shitjet_id) REFERENCES shitjet(id),
     FOREIGN KEY (produkte_id) REFERENCES produkte(id)
 );
+ALTER TABLE shitje_artikuj
+ADD CONSTRAINT FK_shitje_artikuj_shitjet
+FOREIGN KEY (shitjet_id) REFERENCES shitjet(id) ON DELETE CASCADE;
 
 CREATE TABLE ardhurat_ditore (
     id VARCHAR(10) PRIMARY KEY,
@@ -93,6 +106,7 @@ UPDATE shitjet SET cmimi_total = 600 WHERE id = '3';
 DELETE FROM shitje_artikuj WHERE id = '3';
 DELETE FROM p_oraret WHERE id = '2';
 DELETE FROM hargjimet WHERE id = '1';
+DELETE FROM puntoret WHERE id = '456';
 
 -- DML
 SELECT puntoret_id, COUNT(*) AS shitjet_total FROM shitjet GROUP BY puntoret_id;
@@ -139,12 +153,12 @@ BEGIN
     VALUES (@id, @emri, @contact_info, @data_punsimit);
 END;
 
-EXEC ShtoPunetor 
-    @id = '456',
-    @emri = 'Majlinda Axhiu',
-    @contact_info = 'Majlina.axhiu@unt.edu.mk',
-    @data_punsimit = '2025-06-02';
-
+--!EXEC ShtoPunetor 
+ --   @id = '456',
+ --   @emri = 'Majlinda Axhiu',
+  --  @contact_info = 'Majlina.axhiu@unt.edu.mk',
+  --  @data_punsimit = '2025-06-02';
+--	
 	GO
 
 CREATE PROCEDURE ShfaqShitjetDitore

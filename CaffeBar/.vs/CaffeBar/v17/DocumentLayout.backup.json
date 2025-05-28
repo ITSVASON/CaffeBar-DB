@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\dal\\puntoretdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\dal\\puntoretdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\models\\puntoret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\models\\puntoret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|c:\\users\\infinitygc\\source\\repos\\caffebar\\caffebar\\froms\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37F9C8BB-2EFC-43BB-85F6-0FCC02A323F0}|CaffeBar\\CaffeBar.csproj|solutionrelative:caffebar\\froms\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form3.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form3.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form3.cs",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form3.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:48:29.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form3.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form3.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form3.cs [Design]",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:47:34.353Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form5.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form5.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form5.cs",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form5.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:34:12.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form5.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form5.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form5.cs [Design]",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:26:18.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PuntoretDAL.cs",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\DAL\\PuntoretDAL.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\DAL\\PuntoretDAL.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\DAL\\PuntoretDAL.cs",
+              "RelativeToolTip": "CaffeBar\\DAL\\PuntoretDAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:49:23.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Puntoret.cs",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Models\\Puntoret.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Models\\Puntoret.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Models\\Puntoret.cs",
+              "RelativeToolTip": "CaffeBar\\Models\\Puntoret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:48:01.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form2.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form2.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form2.cs",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:44:40.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form1.cs",
+              "RelativeDocumentMoniker": "CaffeBar\\Froms\\Form1.cs",
+              "ToolTip": "C:\\Users\\INfinityGC\\source\\repos\\CaffeBar\\CaffeBar\\Froms\\Form1.cs [Design]",
+              "RelativeToolTip": "CaffeBar\\Froms\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:30:00.357Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
