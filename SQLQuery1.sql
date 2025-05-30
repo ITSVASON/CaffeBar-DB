@@ -15,9 +15,6 @@ CREATE TABLE p_oraret (
     FOREIGN KEY (puntoret_id) REFERENCES puntoret(id)
 );
 
-ALTER TABLE p_oraret
-ADD CONSTRAINT FK_p_oraret_puntoret
-FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
 
 CREATE TABLE produkte (
     id VARCHAR(10) PRIMARY KEY,
@@ -25,9 +22,6 @@ CREATE TABLE produkte (
     kategoria VARCHAR(50),
     cmimi_njesi DECIMAL(10,2) NOT NULL
 );
-ALTER TABLE shitje_artikuj
-ADD CONSTRAINT FK_shitje_artikuj_produkte
-FOREIGN KEY (produkte_id) REFERENCES produkte(id) ON DELETE CASCADE;
 
 CREATE TABLE shitjet (
     id VARCHAR(10) PRIMARY KEY,
@@ -36,9 +30,7 @@ CREATE TABLE shitjet (
     puntoret_id VARCHAR(10),
     FOREIGN KEY (puntoret_id) REFERENCES puntoret(id)
 );
-ALTER TABLE shitjet
-ADD CONSTRAINT FK_shitjet_puntoret
-FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
+
 
 CREATE TABLE shitje_artikuj (
     id VARCHAR(10) PRIMARY KEY,
@@ -50,9 +42,7 @@ CREATE TABLE shitje_artikuj (
     FOREIGN KEY (shitjet_id) REFERENCES shitjet(id),
     FOREIGN KEY (produkte_id) REFERENCES produkte(id)
 );
-ALTER TABLE shitje_artikuj
-ADD CONSTRAINT FK_shitje_artikuj_shitjet
-FOREIGN KEY (shitjet_id) REFERENCES shitjet(id) ON DELETE CASCADE;
+
 
 CREATE TABLE ardhurat_ditore (
     id VARCHAR(10) PRIMARY KEY,
@@ -67,6 +57,24 @@ CREATE TABLE hargjimet (
     pershkrimi TEXT,
     sasia DECIMAL(10,2)
 );
+ALTER TABLE p_oraret
+ADD CONSTRAINT FK_p_oraret_puntoret
+FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
+
+ALTER TABLE shitje_artikuj
+ADD CONSTRAINT FK_shitje_artikuj_produkte
+FOREIGN KEY (produkte_id) REFERENCES produkte(id) ON DELETE CASCADE;
+
+ALTER TABLE shitjet
+ADD CONSTRAINT FK_shitjet_puntoret
+FOREIGN KEY (puntoret_id) REFERENCES puntoret(id) ON DELETE CASCADE;
+
+ALTER TABLE shitje_artikuj
+ADD CONSTRAINT FK_shitje_artikuj_shitjet
+FOREIGN KEY (shitjet_id) REFERENCES shitjet(id) ON DELETE CASCADE;
+
+
+
 
 -- insertimi neper tabela
 INSERT INTO puntoret VALUES ('123', 'Amar Ajvazi', 'Amarbosi@gmail.com', '2025-03-01');
